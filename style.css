@@ -4,7 +4,6 @@ body{
 }
 
 header{
-    background-color: #1F2937;
     margin: 0;
     padding: 15px 30px;
     display: flex;
@@ -23,3 +22,48 @@ header{
     font-weight: 550;
     color: #F9FAF8;
 }
+
+.uppercontent{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 50px;
+}
+
+.uppercontent, header{
+    background-color: #1F2937;
+}
+
+.sideA{
+    max-width: 400px;
+    padding: 0;
+}
+
+.uppercontent h2{
+    margin: 0;
+    padding: 0;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.uppercontent img{
+    max-width: 400px;
+    max-height: 250px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.uppercontent p{
+    font-size: 18px;
+    color: #E5E7EB;
+    word-wrap: break-word;
+}
+
+.uppercontent button{
+    padding: 10px 25px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+}
+
